@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Avenir LT Std";
+    width:1440px;
+    height: 1742px;
+   
+}
+.header{
+    height: 80px; 
+    margin: 0%;
+    padding: 0%;
+    position: relative;  
+}
+.content-1{
+    height:706px;
+}
+.content-2{
+    height: 442px;
+}
+.content-3{
+    height:1450px;
+}
+.footer-content{
+    height: 377px;
+}
+.base-footer{
+    display: flex;
+    align-items: center;
+    height: 81px;
+    width: 1440px;
+}

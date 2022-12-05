@@ -1,0 +1,26 @@
+.header,.content-2,.footer-content,.footer-content .wrapper-footer{
+    background-color: #FFF3E9;
+}
+.header nav ul li a{
+    color: #000000;
+}
+.content-1,.content-3{
+    background: #F5F5F5;
+}
+.base-footer{
+    background: #000000;
+    color: #FFFFFF;
+}
+.base-footer nav ul li a {
+    color: #FFFFFF ;
+}
+.btn-dark{
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    color: #FFFFFF;
+}
+.btn-light{
+    border-color: #F24397;
+    color: #F24397 ;
+}
+
+
