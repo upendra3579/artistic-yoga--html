@@ -1,0 +1,235 @@
+
+.header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22.78px;
+   
+}
+ .image1{
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    top:10px;
+    left: 80px;
+}
+.image2{
+    width:48px;
+    height: 48px;
+    position: absolute;
+    top: 16px;
+    left: 1313px;
+}
+ .header nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 64px;
+    align-items: flex-end;
+    position:absolute;
+    top: 27px;
+    bottom: 28px;
+    left: 920px;
+}
+.header nav ul li a{
+    text-decoration: none;
+}
+
+           /* ---------End of Header------ */
+.wrapper{
+    position: absolute;
+    right: 241px;
+    left: 240px;
+    top: 545px;
+    bottom: 538px;
+}
+
+.middle-logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 646px;
+    top: 289px;
+    
+}
+.main-content .heading{
+    position: absolute;
+    width: 462px;
+    height: 74px;
+    left: 503px;
+    top: 170px;
+    font-family: 'Gill Sans MT',sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    color: #4D4D4D;
+}
+.heading .account{
+    color:#FE5268;
+}
+.black-dot{
+    position: absolute;
+    width: 63.11px;
+    height: 63.11px;
+    left: 782.89px;
+    top: 425.89px;
+    background: #4D4D4D;
+    border-radius: 30px;
+}
+.side-nav{
+    position: absolute;
+    width: 235px;
+    height: 236px;
+    left: 1126px;
+    top: 80px;
+    background: #FCF7F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.side-nav ul{
+    list-style-type: none;
+}
+.side-nav ul li {
+    border-bottom:red;
+    padding: 13px;
+    font-size: 22.78px;
+}
+.edit{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 25.6px;
+}
+.subscription-membership p{
+    margin: 0px;
+    padding-left: 10px;
+}
+.info h4{
+    font-weight: 700;
+    font-size: 25.6px;
+    padding: 0px;
+    margin:12px;
+    opacity: 0.5;
+}
+.info p,.year-membership{
+    font-weight: 300;
+    font-size: 28.83px;
+    margin:12px;
+    padding:0px;
+}
+.info .paragraph{
+    font-weight: 300;
+    font-size: 17.6px;
+    margin:12px;
+}
+.subscription-membership p a{
+    font-weight: 300;
+    font-size: 25.63px;
+    padding-left: 0px;
+    margin:12px;
+    margin-left: 0px;
+    color:#4D4D4D;
+}
+.referral-code p a{
+    font-weight: 300;
+    font-size: 25.63px;
+    margin:12px;
+    color:#4D4D4D;
+
+}
+.referral-code .code{
+    color:#4D4D4D;
+    margin:12px;
+    padding-left:4px;
+
+}
+           /* --------------End of Main-Content -------- */
+
+.footer-content{
+    height: 377px;
+}
+
+ .wrapper-footer{
+    position: absolute;
+    left: 189px;
+    right: 189px;
+} 
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-address{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 23px;
+}
+.mail,.fa-regular{
+    position: relative;
+    top:41px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.number,.fa-brands{
+    position: relative;
+    top: 107px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.talk{
+    position: relative;
+    font-size: 28.83px;
+    top:40px;
+    margin: 0px;
+}
+.appointment{
+    position: relative;
+    font-size: 36.49px;
+    top:91px;
+    margin: 0px;
+}
+hr{
+    position: absolute;
+    bottom: 307;
+}
+.footer-para{
+    font-size: 16px;
+    position: relative;
+    top: 167px;
+    margin: 0px;
+
+}
+
+           /* ----------- End of Footer-wrapper---------- */
+
+.base-footer{
+    display: flex;
+    align-items: center;
+    height: 81px;
+    width: 1440px;
+    position: absolute;
+    top: 1657px;
+    bottom: 0px;
+}
+.base-footer p{
+    position:absolute;
+    left: 491px;
+}
+.base-footer nav ul{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.base-footer nav ul .a1{
+    position: absolute;
+    right: 603px;
+}
+.base-footer nav ul .a2{
+    position: absolute;
+    right: 491px;
+}
+ 
+             /*    --------- End of Base-Footer--------- */
