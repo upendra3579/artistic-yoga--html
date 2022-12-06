@@ -82,6 +82,7 @@
 .content-1 .right-section nav ul li a{
     text-decoration: none;
     font-size: 22.78px;
+    color: #4D4D4D;
 }
 .content-1 .right-section .para{
     width: 355.72px;
@@ -204,9 +205,18 @@ top: 1419.04px;
 }
 .content-3 .sub-content-1 .left-section .girl{
     position: absolute;
-    width: 424.16px;
-    height: 424.16px;
-    left: 128px;
+    width: 288.5px;
+    height: 363.49px;
+    left: 130px; 
+    z-index: 1;
+}
+.sub-content-1 .left-section .ellipse{
+    position: relative;
+    width: 427.8px;
+    height: 261.98px;
+    left: 20px;
+    top:240px;
+    opacity: 0.5;    
 }
 .content-3 .sub-content-1 .right-section .rectangle{
     width: 475.67px;
